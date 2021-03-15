@@ -30,6 +30,7 @@ public class ExemploArrayList {
     agenda.add("Marcos Paqueta;22 2222-2222");
     agenda.add("Maria Antonieta;33 3333-3333");
     agenda.add("Antônio Conselheiro;44 4444-4444");
+    agenda.add("Michelle;44 4444-4444");
 
     int i;
 
@@ -50,7 +51,7 @@ public class ExemploArrayList {
     } catch (IndexOutOfBoundsException e) {
         // exceção lançada para indicar que um índice (i)
         // está fora do intervalo válido (de 0 até agenda.size()-1)
-        System.out.printf("\nErro: posição inválida (%s).",
+        System.out.printf("\nErro: posição de erro inválida (%s).",
           e.getMessage());
     }
 
